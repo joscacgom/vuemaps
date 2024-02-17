@@ -1,0 +1,15 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
+
+<template>
+  <RouterView />
+</template>
+
+<style scoped>
+body,
+html,
+#app {
+  overflow: hidden;
+}
+</style>
