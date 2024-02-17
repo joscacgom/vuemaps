@@ -10,4 +10,3 @@ const searchApi = axios.create({
 })
 
 export default searchApi
-

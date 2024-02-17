@@ -12,7 +12,9 @@
     >
       <h3 class="search-results__result--title">{{ location.text }}</h3>
       <p class="search-results__result--description">{{ location.place_name }}</p>
-      <button class="search-results__result--button" @click.self="getRouteDirections(location)">Go to</button>
+      <button class="search-results__result--button" @click.self="getRouteDirections(location)">
+        Go to
+      </button>
     </li>
   </ul>
 </template>

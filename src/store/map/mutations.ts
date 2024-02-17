@@ -11,7 +11,7 @@ const mutation: MutationTree<MapState> = {
     state: MapState,
     { distance, duration }: { distance: number; duration: number }
   ) {
-    let distanceInKm =distance / 1000
+    let distanceInKm = distance / 1000
     distanceInKm = Math.round(distanceInKm * 100) / 100
     const durationInMinutes = Math.floor(duration / 60)
 

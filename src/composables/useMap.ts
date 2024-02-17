@@ -14,6 +14,7 @@ export const useMap = () => {
     isMapLoaded: computed(() => store.getters['Map/isMapLoaded']),
     setMap: (map: mapboxgl.Map) => store.commit('Map/setMap', map),
     setLocationMarkers: (locations: any[]) => store.commit('Map/setLocationMarkers', locations),
-    getRouteBetweenPoints: (start: LngLat, end: LngLat) => store.dispatch('Map/getRouteBetweenPoints', { start, end })
+    getRouteBetweenPoints: (start: LngLat, end: LngLat) =>
+      store.dispatch('Map/getRouteBetweenPoints', { start, end })
   }
 }

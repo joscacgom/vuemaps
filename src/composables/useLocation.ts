@@ -1,6 +1,5 @@
 import type { State } from '@/store'
 import { computed, onMounted } from 'vue'
-import { loadRouteLocation } from 'vue-router'
 import { useStore } from 'vuex'
 
 export const useLocation = () => {

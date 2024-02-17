@@ -1,7 +1,11 @@
 <template>
   <div v-if="distance" class="direction-details">
-    <div class="direction-details__detail">Distance: <strong>{{ distance }} Kms </strong> </div>
-    <div class="direction-details__detail">Duration: <strong>{{ duration }} minutes </strong> </div>
+    <div class="direction-details__detail">
+      Distance: <strong>{{ distance }} Kms </strong>
+    </div>
+    <div class="direction-details__detail">
+      Duration: <strong>{{ duration }} minutes </strong>
+    </div>
   </div>
 </template>
 
@@ -9,8 +13,6 @@
 import { useMap } from '@/composables'
 
 const { distance, duration } = useMap()
-
-
 </script>
 
 <style scoped>
@@ -33,8 +35,8 @@ const { distance, duration } = useMap()
 }
 
 .direction-details__detail {
-    strong {
-        color: #00695c;
-    }
+  strong {
+    color: #00695c;
+  }
 }
 </style>

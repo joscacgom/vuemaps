@@ -61,10 +61,12 @@ watch(isGeolocationEnabled, () => {
   z-index: 1;
 }
 .map__loading--text {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
 }
 
 .map__container {
