@@ -1,5 +1,6 @@
 # Vue Maps
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e835a322-2ee3-4e26-9299-d82e3c5f0a8f/deploy-status)](https://app.netlify.com/sites/vuemaps/deploys)
+
 Vue Maps is an application build in Vue JS framework and Mapbox API offering a simple interface to visualize and set routes to your favourite places
 
 
